@@ -1,11 +1,12 @@
 import Footer from "./Components/Footer";
+import Cards from "./Components/Cards";
+import Piggy from "./Components/Piggy";
 
 function App() {
   return (
 
     <div className="mainThing">
-      <div className="empty"></div>
-      <Footer title = "hello" />
+      <Cards/>
     </div>
   
   );
