@@ -2,6 +2,7 @@ import Footer from "./Components/Footer";
 import Card from "./Components/Card";
 import Piggy from "./Components/Piggy";
 import Countdown from "./Components/Countdown";
+import TaskManager from "./Components/TaskManager";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
 
       {/* <Piggy/> */}
 
-      <Countdown/>
+      {/* <Countdown/> */}
+
+      <TaskManager/>
       
     </div>
   

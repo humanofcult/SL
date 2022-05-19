@@ -241,3 +241,70 @@ body
 {
   color: white;
 }
+
+.spanich
+{
+  display: block;
+}
+
+#manager
+{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+#manager hr
+{
+  border: none;
+  border: 1px solid #333333;
+}
+
+#manager input
+{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 50%;
+  height: 2rem;
+  text-align: center;
+  margin-right: 1rem;
+  color: white;
+  background-color: #333333;
+  font-size: medium;
+}
+
+.btn
+{
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 2rem;
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  font-size: small;
+  margin-right: 3px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#manager span
+{
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 1.5rem;
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  font-size: small;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.btn:hover
+{
+  background-color: white;
+  color: #333333;
+}
