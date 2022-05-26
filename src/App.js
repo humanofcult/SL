@@ -3,6 +3,8 @@ import Card from "./Components/Card";
 import Piggy from "./Components/Piggy";
 import Countdown from "./Components/Countdown";
 import TaskManager from "./Components/TaskManager";
+import Slider from "./Components/Slider";
+import RollOver from "./Components/RollOver";
 
 function App() {
   return (
@@ -21,7 +23,11 @@ function App() {
 
       {/* <Countdown/> */}
 
-      <TaskManager/>
+      {/* <TaskManager/> */}
+
+      <Slider/>
+
+      {/* <RollOver/> */}
       
     </div>
   
